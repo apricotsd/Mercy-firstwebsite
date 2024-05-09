@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+body{
+  font-family: Jaro;
+  text-align: center;
+}
+
+ul {
+	width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem 4rem;
+  
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.vertical-menu a {
+	background-color: #eee;
+	color: black;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+  
+}
+
+.vertical-menu a:hover {
+	background-color: #E6E6FA;
+}
+
+.vertical-menu a.active {
+	background-color: #04aa6d;
+	color: white;
+}
+
+img {
+	width: 50%;
+	height: auto;
+	margin: 20px;
+  align: center;
+}
+
+header{
+  background-color: #E6E6FA;
+}
+
+footer{
+  background-color: #E6E6FA;
+
+}
